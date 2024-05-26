@@ -7,7 +7,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from bad_words import bad_words
 from admin_names import admin_names
 
-API_TOKEN = '6308303017:AAH0-qKoXmCM__TxzJsEXP5Nt1nGeGBOFzU'
+API_TOKEN = '6308303017:AAHnCxDG_vzH1wUznSSxVuSWEeLpdRpX8iI'
 bot = telebot.TeleBot(API_TOKEN, parse_mode='Markdown')
 
 bad_words_responses = [
